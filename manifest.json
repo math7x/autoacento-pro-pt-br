@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AutoAcento Pro PT-BR",
+  "version": "2.0",
+  "description": "Corretor ortográfico completo e offline em tempo real.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icone.png",
+    "48": "icone.png",
+    "128": "icone.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["dicts/pt_BR.aff", "dicts/pt_BR.dic"],
+      "matches": ["https://uptecnologias.digisac.app/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://uptecnologias.digisac.app/*"],
+      "js": ["typo.js", "content.js"]
+    }
+  ]
+}

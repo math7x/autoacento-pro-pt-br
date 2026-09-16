@@ -1,0 +1,23 @@
+INSTRUÇÕES DE INSTALAÇÃO - AUTOACENTO PRO
+
+Os seus scripts principais (manifest.json e content.js) e a estrutura de pastas estão prontos!
+
+Para a extensão funcionar, você precisa adicionar os 3 arquivos externos (o motor e os dicionários) que não puderam ser embutidos automaticamente. É bem simples:
+
+PASSO 1: BAIXAR O MOTOR TYPO.JS
+1. Acesse: https://raw.githubusercontent.com/cfinke/Typo.js/master/typo/typo.js
+2. Clique com o botão direito na tela e selecione "Salvar como..."
+3. Salve o arquivo na pasta principal 'AutoAcentoPro' com o nome 'typo.js'
+
+PASSO 2: BAIXAR OS DICIONÁRIOS
+1. Acesse: https://raw.githubusercontent.com/wooorm/dictionaries/main/dictionaries/pt-BR/index.aff
+2. Salve na pasta 'dicts' com o nome 'pt_BR.aff'
+3. Acesse: https://raw.githubusercontent.com/wooorm/dictionaries/main/dictionaries/pt-BR/index.dic
+4. Salve na pasta 'dicts' com o nome 'pt_BR.dic'
+
+PASSO 3: INSTALAR NO CHROME
+1. Abra chrome://extensions/
+2. Ative o "Modo do desenvolvedor"
+3. Clique em "Carregar sem compactação" e selecione esta pasta 'AutoAcentoPro'.
+
+Pronto! Seu corretor profissional estará ativo.
