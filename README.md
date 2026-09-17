@@ -18,3 +18,7 @@ Corretor ortográfico offline para campos de texto na web. A extensão acompanha
 4. Selecione a pasta deste projeto.
 
 Tecnologias principais: JavaScript, Hunspell/Typo.js e Chrome Extensions API.
+
+## Autoria
+
+Desenvolvido por [math7x](https://github.com/math7x).

@@ -3,6 +3,7 @@
   "name": "AutoAcento Pro PT-BR",
   "version": "2.0",
   "description": "Corretor ortográfico completo e offline em tempo real.",
+  "author": "math7x",
   "permissions": ["activeTab"],
   "icons": {
     "16": "icone.png",
