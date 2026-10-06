@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "AutoAcento Pro PT-BR",
-  "version": "2.0",
-  "description": "Corretor ortográfico completo e offline em tempo real.",
-  "author": "math7x",
+  "name": "AutoAcento Digisac",
+  "version": "3.0",
+  "description": "Corretor e formatador otimizado com protecao de links, exclusivo para Digisac.",
   "permissions": ["activeTab"],
   "icons": {
     "16": "icone.png",
