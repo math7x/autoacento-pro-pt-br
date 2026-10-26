@@ -18,6 +18,10 @@ O projeto adiciona correção ortográfica em português brasileiro diretamente 
 - suporte a campos de texto em páginas web;
 - dependências incluídas no próprio projeto.
 
+## Páginas atendidas
+
+A extensão é carregada apenas nas páginas configuradas no `manifest.json`, incluindo ambientes de atendimento da DigiSac, central de ajuda da Saipos, parceiros ConnectPlug e anexos de imagem do Octadesk. Ela não lê nem envia o conteúdo digitado para servidores próprios.
+
 ## Instalação
 
 1. Abra `chrome://extensions` ou `brave://extensions`.

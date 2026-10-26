@@ -1,9 +1,14 @@
 {
   "manifest_version": 3,
   "name": "AutoAcento Digisac",
-  "version": "3.0",
-  "description": "Corretor e formatador otimizado com protecao de links, exclusivo para Digisac.",
-  "permissions": ["activeTab"],
+  "version": "3.9",
+  "description": "Corretor e formatador otimizado com protecao de links para campos de texto na web.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "icons": {
     "16": "icone.png",
     "48": "icone.png",
@@ -11,14 +16,30 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["dicts/pt_BR.aff", "dicts/pt_BR.dic"],
-      "matches": ["https://uptecnologias.digisac.app/*"]
+      "resources": [
+        "dicts/pt_BR.aff",
+        "dicts/pt_BR.dic"
+      ],
+      "matches": [
+        "https://uptecnologias.digisac.app/*",
+        "https://intercom.help/*",
+        "https://parceiros.cplug.com.br/*"
+      ]
     }
   ],
   "content_scripts": [
     {
-      "matches": ["https://uptecnologias.digisac.app/*"],
-      "js": ["typo.js", "content.js"]
+      "matches": [
+        "https://uptecnologias.digisac.app/*",
+        "https://intercom.help/meajuda-saipos/*",
+        "https://parceiros.cplug.com.br/*",
+        "https://cdn.octadesk.com/old-widget-static/*"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "js": [
+        "content.js"
+      ]
     }
   ]
 }
